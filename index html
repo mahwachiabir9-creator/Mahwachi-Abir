@@ -6,15 +6,15 @@
   <title>MyMagic AI - Safe AI for Kids</title>
 
   <!-- SEO Meta Tags -->
-  <meta name="description" content="MyMagic AI is a safe and interactive platform for kids and teens (ages 9–18) to explore artificial intelligence through fun learning, creativity, and strong parental controls." />
-  <meta name="keywords" content="AI for kids, safe AI learning, fun AI platform, educational technology, MyMagic AI, parental control" />
+  <meta name="description" content="MyMagic AI - Safe AI for Kids" />
+  <meta name="keywords" content="AI for kids, safe AI, child-friendly AI" />
   <meta name="robots" content="index, follow" />
 
   <style>
     body {
       margin: 0;
       font-family: 'Arial', sans-serif;
-      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      background: linear-gradient(135deg, #667eea, #764ba2);
       color: white;
       text-align: center;
       padding: 50px;
@@ -37,24 +37,24 @@
       border: none;
       border-radius: 30px;
       cursor: pointer;
-      transition: transform 0.3s;
+      transition: transform 0.2s;
     }
     button:hover {
-      transform: scale(1.1);
-    }
-    @keyframes glow {
-      from { text-shadow: 0 0 10px #fff; }
-      to { text-shadow: 0 0 30px #ffcc00; }
+      transform: scale(1.05);
     }
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
     }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff; }
+      to { text-shadow: 0 0 20px #ffcc00; }
+    }
   </style>
 </head>
 <body>
-  <h1>✨ Welcome to MyMagic AI ✨</h1>
-  <p>A safe and fun platform for kids and teens to learn AI creatively and securely.</p>
-  <button onclick="alert('More exciting features coming soon!')">Start Now 🚀</button>
+  <h1>Welcome to MyMagic AI</h1>
+  <p>Fun, safe, and creative AI learning for kids and teens!</p>
+  <button>Start Exploring</button>
 </body>
 </html>
