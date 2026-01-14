@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head<meta name="description" content="MyMagic AI هي منصة تفاعلية وآمنة للأطفال واليافعين (من 9 إلى 18 سنة) لتعلم الذكاء الاصطناعي بطريقة ممتعة، تجمع بين الإبداع، اللعب، والمراقبة الأبوية." />
+<meta name="keywords" content="ذكاء اصطناعي للأطفال, تعلم AI, منصة آمنة, ترفيه تعليمي, مراقبة أبوية, MyMagic AI" />
+<meta name="robots" content="index, follow" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MyMagic AI</title>
