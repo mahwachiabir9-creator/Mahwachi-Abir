@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head<meta name="description" content="MyMagic AI هي منصة تفاعلية وآمنة للأطفال واليافعين (من 9 إلى 18 سنة) لتعلم الذكاء الاصطناعي بطريقة ممتعة، تجمع بين الإبداع، اللعب، والمراقبة الأبوية." />
-<meta name="keywords" content="ذكاء اصطناعي للأطفال, تعلم AI, منصة آمنة, ترفيه تعليمي, مراقبة أبوية, MyMagic AI" />
-<meta name="robots" content="index, follow" />
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MyMagic AI</title>
+  <title>MyMagic AI - Safe AI for Kids</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="MyMagic AI is a safe and interactive platform for kids and teens (ages 9–18) to explore artificial intelligence through fun learning, creativity, and strong parental controls." />
+  <meta name="keywords" content="AI for kids, safe AI learning, fun AI platform, educational technology, MyMagic AI, parental control" />
+  <meta name="robots" content="index, follow" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 50px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      animation: glow 2s infinite alternate;
+    }
+    p {
+      font-size: 1.3em;
+      margin-bottom: 30px;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background-color: #ffcc00;
+      color: #333;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    button:hover {
+      transform: scale(1.1);
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff; }
+      to { text-shadow: 0 0 30px #ffcc00; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to MyMagic AI!</h1>
-  <p>This is a safe and fun AI platform for kids and teens.</p>
+  <h1>✨ Welcome to MyMagic AI ✨</h1>
+  <p>A safe and fun platform for kids and teens to learn AI creatively and securely.</p>
+  <button onclick="alert('More exciting features coming soon!')">Start Now 🚀</button>
 </body>
 </html>
