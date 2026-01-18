@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html>
 <head>
   <title>MyMagic AI</title>
@@ -10,6 +11,18 @@
       color: white;
       padding: 50px;
       animation: fadeIn 2s ease-in-out;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      animation: glow 2s infinite alternate;
     }
 
     p {
@@ -37,14 +50,24 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff; }
+      to { text-shadow: 0 0 20px #ffcc00; }
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to MyMagic AI</h1>
-  <p>Fun, safe, and creative AI learning for kids and teens!</p>
+  <!-- أيقونة سحرية -->
+  <img src="logo.png" alt="MyMagic Logo" class="logo">
 
-  <button onclick="window.location.href='app.html'">
+  <h1>Welcome to MyMagic AI</h1>
+  <p>A safe and fun AI platform for kids and teens to learn, create, and explore!</p>
+
+  <!-- الزر يفتح التطبيق الحقيقي على Convex Chef -->
+  <button onclick="window.location.href='https://glowing-110.convex.app'">
     Start Exploring
   </button>
 </body>
 </html>
+
